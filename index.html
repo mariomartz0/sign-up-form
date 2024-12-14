@@ -6,24 +6,36 @@
     <title>Sign-up Form</title>
   </head>
   <body>
-    <div class="side-container"></div>
+    <div class="side-container">
+      <div class="banner">
+        <img src="#" alt="Odin Logo." />
+        <h1>ODIN</h1>
+        <figcaption>Photo by ---- on Unsplash</figcaption>
+      </div>
+    </div>
     <div class="main-container">
-      <p>
+      <h2>
         This is not a real online service! You know you need something like this
         in your life to help you realize your deepest dreams. Sign up now to get
         started.
-      </p>
-      <p>You know you want to.</p>
+      </h2>
+      <h2>You know you want to.</h2>
       <div class="form-container">
-        <p>Let's do this!</p>
-        <div class="column-1">
-          <input type="text" name="firstName" required />
-          <input type="email" name="email" required />
-          <input type="password" name="password" required />
-        </div>
-        <div class="column-2">
-          <input type="text" name="lastName" required />
-        </div>
+        <h2>Let's do this!</h2>
+        <form>
+          <div class="column-1">
+            <input type="text" name="firstName" required />
+            <input type="email" name="email" required />
+            <input type="password" name="password" required />
+          </div>
+          <div class="column-2">
+            <input type="text" name="lastName" required />
+            <input type="tel" name="phoneNumber" required />
+            <input type="password" name="password" required />
+          </div>
+        </form>
+        <button>Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
       </div>
     </div>
   </body>
