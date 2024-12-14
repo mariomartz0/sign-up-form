@@ -26,14 +26,25 @@
           <h2>Let's do this!</h2>
           <form>
             <div class="column-1">
-              <input type="text" name="firstName" required />
-              <input type="email" name="email" required />
-              <input type="password" name="password" required />
+              <label for="first-name">FIRST NAME</label>
+              <input id="first-name" type="text" name="firstName" required />
+              <label for="email">EMAIL</label>
+              <input id="email" type="email" name="email" required />
+              <label for="password">PASSWORD</label>
+              <input id="password" type="password" name="password" required />
             </div>
             <div class="column-2">
-              <input type="text" name="lastName" required />
-              <input type="tel" name="phoneNumber" required />
-              <input type="password" name="password" required />
+              <label for="last-name">LAST NAME</label>
+              <input id="last-name" type="text" name="lastName" required />
+              <label for="phone-number">PHONE NUMBER</label>
+              <input id="phone-number" type="tel" name="phoneNumber" required />
+              <label for="CONFIRM PASSWORD"></label>
+              <input
+                id="confirm-password"
+                type="password"
+                name="password"
+                required
+              />
             </div>
           </form>
           <button>Create Account</button>
